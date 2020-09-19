@@ -11,7 +11,7 @@ class Factors(models.Model):
     atl = models.CharField(max_length=100)
     ctl = models.CharField(max_length=100)
     tbs = models.CharField(max_length=100)
-    ccc = models.CharField(max_length=100, default='0000000', editable=False)
+    #ccc = models.CharField(max_length=100, default='0000000', editable=False)
     date = models.DateField(default=timezone.now)
   
 

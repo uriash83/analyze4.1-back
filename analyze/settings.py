@@ -74,6 +74,7 @@ WSGI_APPLICATION = 'analyze.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases:
+
 """
 DATABASES = {
     'default': {
@@ -105,6 +106,8 @@ DATABASES = {
         'PORT': '5432'
     }
 }
+
+
 
 
 # Password validation
@@ -144,7 +147,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = '/home/uriash83/analyze4.1-back/static'
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
